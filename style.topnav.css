@@ -13,12 +13,20 @@
     font-weight: bold;
 }
 
-a.nav {
-    padding-top: 40px;
+a.inscription {
     color: #0065FC;
     text-decoration: none;
 }
 
+a.nav {
+    padding-top: 39px;
+    color:black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 a.nav:hover {
-    border-top: 1px solid #0065FC
+    border-top: 1px solid #0065FC;
+    color: #0065FC;
 }

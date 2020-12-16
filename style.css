@@ -8,6 +8,7 @@
 }
 
 body {
+    margin: 0px;
     padding-left: 40px;
 }
 
@@ -21,3 +22,7 @@ h2 {
     font-size: 15px;
 }
 
+.text {
+    font-family: "RailwayMedium";
+    font-weight: bold;
+}

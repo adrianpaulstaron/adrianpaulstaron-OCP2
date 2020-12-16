@@ -46,6 +46,7 @@ textarea {
     resize: none;
     border: none;
     font-family: "RailwayMedium";
+    outline: none;
 }
 
 #searchbutton {
