@@ -3,32 +3,54 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style.topnav.css"/>
+        <link rel="stylesheet" href="style.searchbar.css"/>
+        <link rel="stylesheet" href="style.filters.css"/>
         <title>Reservia</title>
     </head>
 
-    <body style="padding-left: 40px;">
-        <div class="topnav">
-            <div class="logo">
-                <a href="#home">
-                    <img src="utilities/images/icons/logo.svg" alt="">
-                </a>
+    <body>
+
+        <div id="topnav">
+            <div>
+                    <img src="utilities/images/icons/logo.svg" alt="Reservia">
             </div>
             <div></div>
             <div class="navbutton">
-                <a href="#hebergements">Hébergements</a>
+                <a class="nav" href="#hebergements">Hébergements</a>
             </div>
             <div class="navbutton">
-                <a href="#activités">Activités</a> 
+                <a class="nav" href="#activités">Activités</a> 
             </div>
             <div class="navbutton inscription">
-                <a href="#s'inscrire">S'inscrire</a> 
+                <a class="nav" href="#s'inscrire">S'inscrire</a> 
             </div>
         </div> 
-        <div class="title">
+
+        <div>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre-ville ou en pleine nature</h2>
         </div>
+
+        <div id="searchbar">
+            <div id="mapmarkerbox">
+                <img id="icon" src="utilities/images/icons/map-marker-alt-solid.svg">
+            </div>
+            <div id="searchtextbox">
+                <textarea>Marseille, France</textarea>
+            </div>
+            <div id="searchbuttonbox">
+                <div id="searchbutton">
+                    <a class="searchbutton" href="#">Rechercher</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="filters">
+
+        </div>
+
     </body>
 
 </html>

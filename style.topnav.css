@@ -1,0 +1,24 @@
+#topnav {
+    font-family: "RailwayLight";
+    display: grid;
+    grid-template-columns: 1fr 6fr repeat(3, 1fr);
+    padding-top: 40px;
+}
+
+.navbutton {
+    text-align: center;
+}
+
+.inscription {
+    font-weight: bold;
+}
+
+a.nav {
+    padding-top: 40px;
+    color: #0065FC;
+    text-decoration: none;
+}
+
+a.nav:hover {
+    border-top: 1px solid #0065FC
+}
