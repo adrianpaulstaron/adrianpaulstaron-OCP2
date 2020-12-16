@@ -26,3 +26,183 @@ h2 {
     font-family: "RailwayMedium";
     font-weight: bold;
 }
+
+
+/*================== topnav ==================*/
+
+#topnav {
+    font-family: "RailwayLight";
+    display: grid;
+    grid-template-columns: 1fr 6fr repeat(3, 1fr);
+    padding-top: 40px;
+}
+
+.navbutton {
+    text-align: center;
+}
+
+.inscription {
+    font-weight: bold;
+}
+
+a.inscription {
+    color: #0065FC;
+    text-decoration: none;
+}
+
+a.nav {
+    padding-top: 39px;
+    color:black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a.nav:hover {
+    border-top: 1px solid #0065FC;
+    color: #0065FC;
+}
+
+
+/*================= searchbar =================*/
+
+#searchbar {
+    display: flex; 
+    flex-direction: row;
+    width: 400px;
+}
+
+#mapmarkerbox  {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 20px;
+    padding: 12px; 
+    padding-top: 15px;
+    background-color: #F2F2F2;
+    text-align: center;
+    border: solid 1px #F2F2F2;
+    border-right: none;
+}
+
+#searchtextbox {
+    width: 220px; 
+    padding: 10px;
+    border: solid 1px #F2F2F2;
+    border-right: none;
+    border-left:none;
+}
+
+#searchbuttonbox {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    padding: 10px;
+    border: solid 1px #F2F2F2;
+    border-left: none;
+}
+
+#icon {
+    width: 10px; 
+    height: auto;
+}
+
+textarea {
+    padding-top: 2px;
+    padding-left: 10px;
+    width: 200px;
+    height: 20px;
+    resize: none;
+    border: none;
+    font-family: "RailwayMedium";
+    outline: none;
+}
+
+#searchbutton {
+    padding-top: 2px;
+}
+
+a.searchbutton {
+    font-family: "RailwayMedium";
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*================== filters ==================*/
+
+#filters {
+    display: flex; 
+    flex-direction: row;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.filtertypes {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.utilitarybox {
+    border: solid 2px #F2F2F2;
+    border-right: none;
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+}
+
+.svgbox  {
+    border-radius: 55px;
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    background-color: #DEEBFF;
+    margin:-2px;
+    display:flex;
+    align-items: center;
+}
+
+.filtertext {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid 2px #F2F2F2;
+    border-left: none; 
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
+
+.filterstitle {
+    padding: 14px;
+}
+
+
+/*=================== info ===================*/
+
+#info {
+    display: flex; 
+    flex-direction: row;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+#infosvg {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    padding: 10px;
+    border: solid 1px #F2F2F2;
+    display:flex;
+    align-items: center;
+}
+
+.textinfo {
+    font-family: "RailwayLight";
+    padding: 7px;
+}
+
+#informationsvg {
+    width: 10px;
+    height: 10px;
+}
