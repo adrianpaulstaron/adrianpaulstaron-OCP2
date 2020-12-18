@@ -238,7 +238,9 @@ a.searchbutton {
     height: 7px;
     padding: 10px;
     border: solid 1px #F2F2F2;
-    display:flex;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
     align-items: center;
 }
 
