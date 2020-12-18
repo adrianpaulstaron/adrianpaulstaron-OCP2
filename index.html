@@ -9,28 +9,24 @@
 
     <body>
 
-        <div id="topnav">
+        <header>
             <div>
-                    <img src="utilities/images/icons/logo.svg" alt="Reservia">
+                    <img id="logo" src="utilities/images/icons/logo.svg" alt="Reservia">
             </div>
             <div></div>
-            <div class="navbutton">
-                <a class="nav" href="#hebergements">Hébergements</a>
-            </div>
-            <div class="navbutton">
-                <a class="nav" href="#activités">Activités</a> 
-            </div>
-            <div class="navbutton">
+            <nav>
+                <a class="navigation" href="#hebergements">Hébergements</a>
+                <a class="navigation" href="#activités">Activités</a> 
+            </nav>
+            <div class="inscription">
                 <a class="inscription" href="#s'inscrire">S'inscrire</a> 
             </div>
-        </div>
+        </header>
 
-        <div>
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2>En plein centre-ville ou en pleine nature</h2>
-        </div>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2>En plein centre-ville ou en pleine nature</h2>
 
-        <div id="searchbar">
+        <form id="searchbar">
             <div id="mapmarkerbox">
                 <img id="icon" src="utilities/images/icons/map-marker-alt-solid.svg">
             </div>
@@ -42,15 +38,13 @@
                     <a class="searchbutton" href="#">Rechercher</a>
                 </div>
             </div>
-        </div>
+        </form>
 
-        <div id="filters">
-            <div>
-                <div class="textbold filterstitle">
-                    Filtres
-                </div>
+        <ul id="filters">
+            <div class="textbold filterstitle">
+                Filtres
             </div>
-            <div class="filtertypes">
+            <li class="filtertypes">
                 <div>
                     <div class="utilitarybox">
                         <div class="svgbox">
@@ -63,8 +57,8 @@
                         Économique
                     </div>    
                 </div>
-            </div>
-            <div class="filtertypes">
+            </li>
+            <li class="filtertypes">
                 <div>
                     <div class="utilitarybox">
                         <div class="svgbox">
@@ -77,8 +71,8 @@
                         Familial
                     </div>    
                 </div>
-            </div>
-            <div class="filtertypes">
+            </li>
+            <li class="filtertypes">
                 <div>
                     <div class="utilitarybox">
                         <div class="svgbox">
@@ -91,8 +85,8 @@
                         Romantique
                     </div>    
                 </div>
-            </div>
-            <div class="filtertypes">
+            </li>
+            <li class="filtertypes">
                 <div>
                     <div class="utilitarybox">
                         <div class="svgbox">
@@ -105,8 +99,8 @@
                         Animaux autorisés
                     </div>    
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
 
         <div id="info">
             <div id="infosvg">
@@ -117,11 +111,28 @@
             </div>
         </div>
 
-        <div id="lodging">
-            <div>
-                <h1>Hébergements à Marseille</h1>
-            </div>
-            <div id="lodginglist">
+        <section id="lodging">
+            <h1>Hébergements à Marseille</h1>
+            <ul id="lodginglist">
+                <li class="lodgingcard">
+                    <figure>
+                        <img class="lodgingpicture" src="utilities/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></img>
+                        <figcaption>
+                            <h3 class="textbold lodgingtitle">
+                                Auberge La Cannebière</h3>
+                            <div class="text lodgingtext">
+                                Nuit à partir de <b>25€</b>
+                            </div>        
+                            <div class="stars">
+                                <img src="utilities/images/icons/star-solid-blue.svg">
+                                <img src="utilities/images/icons/star-solid-blue.svg">
+                                <img src="utilities/images/icons/star-solid-blue.svg">
+                                <img src="utilities/images/icons/star-solid-blue.svg">
+                                <img src="utilities/images/icons/star-solid-grey.svg">
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
                 <div class="lodgingcard">
                     <img class="lodgingpicture" src="utilities/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></img>
                     <div class="textbold lodgingtitle">
@@ -135,23 +146,10 @@
                         <img src="utilities/images/icons/star-solid-blue.svg">
                         <img src="utilities/images/icons/star-solid-blue.svg">
                         <img src="utilities/images/icons/star-solid-grey.svg">
-                    </div>
+                    </div>            
                 </div>
-                <div class="lodgingcard">
-                    <img class="lodgingpicture" src="utilities/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></img>
-                    <div class="textbold lodgingtitle">
-                        Auberge La Cannebière</div>
-                    <div class="text lodgingtext">
-                        Nuit à partir de <b>25€</b>
-                    </div>
-                    <div class="stars">
-                        <img src="utilities/images/icons/star-solid-blue.svg">
-                        <img src="utilities/images/icons/star-solid-blue.svg">
-                        <img src="utilities/images/icons/star-solid-blue.svg">
-                        <img src="utilities/images/icons/star-solid-blue.svg">
-                        <img src="utilities/images/icons/star-solid-grey.svg">
-                    </div>            </div>
-        </div>
+            </ul>
+        </section>
 
     </body>
 

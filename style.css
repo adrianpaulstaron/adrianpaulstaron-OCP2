@@ -23,6 +23,15 @@ h2 {
     font-size: 15px;
 }
 
+h3 {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 .textbold {
     font-family: "RailwayMedium";
     font-weight: bold;
@@ -35,19 +44,30 @@ h2 {
 
 /*================== topnav ==================*/
 
-#topnav {
+header {
     font-family: "RailwayLight";
     display: grid;
-    grid-template-columns: 1fr 6fr repeat(3, 1fr);
+    grid-template-columns: 1fr 6fr 2fr 1fr;
+}
+
+#logo {
     padding-top: 40px;
 }
 
-.navbutton {
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;
+}
+
+.navigation {
+
 }
 
 .inscription {
     font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
 }
 
 a.inscription {
@@ -55,15 +75,16 @@ a.inscription {
     text-decoration: none;
 }
 
-a.nav {
-    padding-top: 39px;
+a.navigation {
+    padding-top: 40px;
     color:black;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-a.nav:hover {
+a.navigation:hover {
+    padding-top: 39px;
     border-top: 1px solid #0065FC;
     color: #0065FC;
 }
@@ -214,7 +235,7 @@ a.searchbutton {
 
 /*=============== hébergements ===============*/
 
-#lodging {
+section {
     display: flex; 
     flex-direction: column;
     margin-top: 30px;
@@ -223,6 +244,8 @@ a.searchbutton {
     border-radius: 15px;
     font-size: 15px;
 }
+
+
 
 #lodginglist {
     display: flex; 
@@ -240,6 +263,10 @@ a.searchbutton {
     border-radius: 7%;
 }
 
+figure {
+    margin: 0px;
+}
+
 .lodgingpicture {
     margin: 5px;
     margin-bottom: 10px;
@@ -251,7 +278,6 @@ a.searchbutton {
 }
 
 .lodgingtitle {
-    margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 15px;
 }
