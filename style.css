@@ -193,7 +193,7 @@ a.searchbutton {
     height: 15px;
     padding: 15px;
     background-color: #DEEBFF;
-    margin: 2px;
+    margin: -2px;
     display:flex;
     align-items: center;
 }
@@ -370,4 +370,11 @@ a.showmore:hover {
     height: 175px;
     width: 175px;
     object-fit: cover;
+}
+
+
+/*================== lodging =================*/
+
+#activities {
+    
 }
