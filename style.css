@@ -10,6 +10,7 @@
 body {
     margin: 0px;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 h1 { 
@@ -30,6 +31,10 @@ h3 {
 ul {
     margin: 0px;
     padding: 0px;
+}
+
+figure {
+    margin: 0px;
 }
 
 .textbold {
@@ -171,6 +176,10 @@ a.searchbutton {
     margin-right: 10px;
     margin-top: 2px;
 }
+.filtertypes:hover{
+    color:#0065FC;
+}
+
 .utilitarybox {
     border: solid 2px #F2F2F2;
     border-right: none;
@@ -184,7 +193,7 @@ a.searchbutton {
     height: 15px;
     padding: 15px;
     background-color: #DEEBFF;
-    margin:-2px;
+    margin: 2px;
     display:flex;
     align-items: center;
 }
@@ -233,38 +242,56 @@ a.searchbutton {
 }
 
 
-/*=============== hébergements ===============*/
+/*================== lodging =================*/
 
-section {
+#lodging {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+#alllodging {
     display: flex; 
     flex-direction: column;
-    margin-top: 30px;
+    margin: 15px;
     padding: 30px;
     background-color: #F2F2F2;
     border-radius: 15px;
     font-size: 15px;
 }
 
+#lodginglocation {
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
 
+.showmore {
+    margin-left: 22px;
+}
+
+a.showmore {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+a.showmore:hover {
+    color: #0065FC;
+}
 
 #lodginglist {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .lodgingcard {
     display: flex; 
     flex-direction: column;
-    margin: 20px;
-    margin-left: 0px;
+    margin: 10px;
+    margin-bottom: 10px;
     padding: 2px;
     background-color: white;
     border-radius: 7%;
-}
-
-figure {
-    margin: 0px;
 }
 
 .lodgingpicture {
@@ -297,4 +324,50 @@ figure {
     margin: 5px;
     margin-left: 15px;
     margin-bottom: 10px
+}
+
+#popularlodging {
+    display: flex; 
+    flex-direction: column;
+    margin: 15px;
+    margin-right: 0px;
+    padding: 30px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+#popularlodgingtitle {
+    margin-bottom: 10px;
+}
+
+#popularlodginglist {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.popularlodgingcard {
+    display: flex; 
+    flex-direction: row;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.popularlodgingfigure {
+    display: flex;
+    align-items: center;
+}
+
+.popularlodgingpicture {
+    margin: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
 }
