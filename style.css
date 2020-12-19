@@ -69,7 +69,7 @@ nav {
     nav {
         display: grid;
         grid-template: "a a a";
-    }    
+    }   
 }
 
 
@@ -187,8 +187,7 @@ a.searchbutton {
 .filtertypes {
     display: flex; 
     flex-direction: row;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 2px;
     margin-bottom: 18px
 }
@@ -229,6 +228,7 @@ a.searchbutton {
 
 .filterstitle {
     padding: 14px;
+    padding-left: 0px;
 }
 
 
@@ -361,6 +361,14 @@ a.showmore:hover {
     margin: 5px;
     margin-left: 15px;
     margin-bottom: 10px;
+}
+
+.bluestar {
+    color: #0065FC;
+}
+
+.greystar {
+    color: #F2F2F2;
 }
 
 #popularlodging {
