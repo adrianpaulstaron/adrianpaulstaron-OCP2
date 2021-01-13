@@ -213,6 +213,17 @@ a.searchbutton {
 
 /*================== filters ==================*/
 
+.filterstitle {
+    padding: 20px;
+    padding-top: 43px;
+    padding-left: 0px;
+}
+
+#filtersection {
+    display: flex;
+    flex-direction: row;
+}
+
 #filters {
     display: flex; 
     flex-direction: row;
@@ -256,16 +267,10 @@ a.searchbutton {
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-bottom: 0.5px;
     border: solid 2px #F2F2F2;
     border-left: none; 
     border-top-right-radius: 55px;
     border-bottom-right-radius: 55px;
-}
-
-.filterstitle {
-    padding: 14px;
-    padding-left: 0px;
 }
 
 
