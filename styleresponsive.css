@@ -114,14 +114,67 @@
         padding-bottom: 30px
     }
 
-.footercolumn {
-    padding-top: 40px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-}
-
+    .footercolumn {
+        padding-top: 40px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media all and (max-width: 320px){
+
+    .popularlodgingpicture {
+        height: 100px;
+        width: 100px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }   
+
+    .lodgingtext {
+        font-size: 12px;
+    }
+
+    #alllodging {
+        padding: 0px;
+    }
+
+    .lodgingcard {
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 0px;
+        border-radius: 7%;
+    }
+    
+    #popularlodging {
+        margin: -5px;
+        padding: 5px;
+    }    
+
+    .lodgingpicture {
+        height: 120px;
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .activitypicturetall {
+        height: 150px;
+        width: 300px;
+    }
+    
+    .activitypicturemedium {
+        height: 150px;
+        width: 300px;
+    }
+    
+    .activitypicturesmall {
+        height: 150px;
+        width: 300px;
+    }
+
+    .activitycard {
+        margin: 0px;
+    }
     
 }
