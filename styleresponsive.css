@@ -52,16 +52,19 @@
     #alllodging {
         display: flex; 
         flex-direction: column;
-        padding: 30px;
-        background-color: #F2F2F2;
+        padding: 20px;
+        background-color: white;
         border-radius: 0px;
-        font-size: 0px;
     }
 
     .lodgingpicture {
         height: 120px;
         width: 350px;
         object-fit: cover;
+    }
+    
+    .lodgingcard {    
+        box-shadow: 0px 0px 10px #F2F2F2;
     }
 
     #popularlodging {
