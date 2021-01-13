@@ -41,21 +41,68 @@
         border-bottom: 1px solid #0065FC;
         color: #0065;    
     }
-    
 
     #textinfo {
         width: 350px;
     }
 
+
+/*=================== lodging ===================*/
+
     #alllodging {
         display: flex; 
         flex-direction: column;
-        flex-align: center;
         padding: 30px;
         background-color: #F2F2F2;
         border-radius: 0px;
         font-size: 0px;
     }
+
+    .lodgingpicture {
+        height: 120px;
+        width: 350px;
+        object-fit: cover;
+    }
+
+    #popularlodging {
+        margin-right: -5px;
+        margin-left: -5px;
+        padding: 30px;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        font-size: 15px;
+    }
+
+    #activities {
+        padding-top: 10px;
+        padding-left: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #activitiestitle {
+        flex-basis: 425px;
+        padding-bottom: 20px;
+    }
+
+    .activitypicturetall {
+        height: 200px;
+        width: 420px;
+    }
+    
+    .activitypicturemedium {
+        height: 200px;
+        width: 420px;
+    }
+    
+    .activitypicturesmall {
+        height: 200px;
+        width: 420px;
+    }
+    
 
     footer {
         margin-top: 30px;

@@ -278,11 +278,17 @@ a.searchbutton {
 /*================== lodging =================*/
 
 #lodging {
-    display: grid;
+    display: flex;
     margin-top: 30px;
     margin-bottom: 50px;
     grid-gap: 40px;
-    grid-template-columns: 4fr 3fr;
+    flex-wrap: wrap-reverse;
+
+    /* display: grid;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    grid-gap: 40px;
+    grid-template-columns: 4fr 3fr; */
 }
 
 
@@ -294,6 +300,7 @@ a.searchbutton {
     background-color: #F2F2F2;
     border-radius: 15px;
     font-size: 15px;
+    width: 63%;
 }
 
 #lodginglocation {
@@ -336,8 +343,8 @@ a.showmore:hover {
     margin-bottom: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    height: 150px;
-    width: 280px;
+    height: 200px;
+    width: 350px;
     object-fit: cover;
 }
 
@@ -441,14 +448,14 @@ a.showmore:hover {
     padding-top: 10px;
     padding-left: 0px;
     margin-left: 0px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
-.activite {
-
+#activitiestitle {
+    flex-basis: 100%;
 }
 
 .activitycard {
@@ -461,8 +468,8 @@ a.showmore:hover {
     box-shadow: 0px 0px 10px #F2F2F2;
 }
 
-.activitytitle {
-    padding: 10px;
+.activitytitles {
+    padding: 13px;
 }
 
 .activitypicturetall {
