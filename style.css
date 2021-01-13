@@ -71,14 +71,21 @@ header {
 }
 
 #topbar {
-    width: 100%;
+    /* width: 100%;
     display: grid;
-    grid-template-rows: 2fr, 1fr;
-    text-align: center;
+    grid-template-rows: 2fr, 5fr;
+    text-align: center; */
+    display: flex;
+    flex-direction: row;
 }
 
 #navigation {
+    margin-top: -40px;
     padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .inscription {
@@ -327,12 +334,12 @@ a.searchbutton {
 }
 
 #lodginglocation {
-    margin-left: 33px;
-    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 .showmore {
-    margin-left: 22px;
+    padding-left: 10px;
 }
 
 a.showmore {
@@ -348,7 +355,7 @@ a.showmore:hover {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .lodgingcard {
@@ -465,7 +472,7 @@ a.showmore:hover {
     align-self: end
 }
 
-/*================== activity =================*/
+/*================== activities =================*/
 
 #activities {
     padding-top: 10px;
