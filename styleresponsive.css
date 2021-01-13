@@ -23,8 +23,6 @@
         padding-right: 0px;
         margin: 5px;
     }
-    header {
-    }
     #topbar {
         flex-direction: column-reverse;
     }  
@@ -116,7 +114,6 @@
         padding-bottom: 30px
     }
 
-
 .footercolumn {
     padding-top: 40px;
     padding-bottom: 0px;
@@ -125,3 +122,6 @@
 
 }
 
+@media all and (max-width: 320px){
+    
+}
