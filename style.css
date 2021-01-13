@@ -13,13 +13,6 @@ body {
     padding-right: 40px;
 }
 
-@media all and (max-width: 480px){
-    body {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}
-
 h1 { 
     font-family: "RailwayMedium";
     font-size: 20px;
@@ -63,7 +56,7 @@ figure {
 header {
     font-family: "RailwayLight";
     display: grid;
-    grid-template-columns: 1fr 20fr 2fr;
+    grid-template-columns: 1fr 20fr 2fr 1fr;
 }
 
 #logo {
@@ -112,32 +105,6 @@ a.navigationlink:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
-
-@media all and (max-width: 480px)
-{
-    #topbar {
-        display: flex;
-        flex-direction: column-reverse ; 
-        text-align: center;
-    }    
-    a.navigationlink {
-        padding-top: 0px;
-        color:black;
-        text-decoration: none;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    a.navigationlink:hover {
-        padding-top: 0px;
-        border-top: none;
-        border-bottom: 1px solid #0065FC;
-        color: #0065;    
-    }
-
-}
-
-
 
 /*================= searchbar =================*/
 
@@ -213,15 +180,15 @@ a.searchbutton {
 
 /*================== filters ==================*/
 
+#filtersection {
+    display: flex;
+    flex-direction: row;
+}
+
 .filterstitle {
     padding: 20px;
     padding-top: 43px;
     padding-left: 0px;
-}
-
-#filtersection {
-    display: flex;
-    flex-direction: row;
 }
 
 #filters {
@@ -285,14 +252,18 @@ a.searchbutton {
 
 #infosvg {
     border-radius: 50%;
-    width: 7px;
-    height: 7px;
-    padding: 10px;
+    width: 5px;
+    height: 5px;
+    padding: 12px;
     border: solid 1px #F2F2F2;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
+}
+
+.infoicon {
+    color: #0065FC;
 }
 
 #textinfo {
@@ -314,14 +285,7 @@ a.searchbutton {
     grid-template-columns: 4fr 3fr;
 }
 
-@media all and (max-width: 920px){
-    #lodging {
-        display: grid;
-        margin-top: 30px;
-        grid-gap: 30px;
-        grid-template: "a";
-    }
-}
+
 
 #alllodging {
     display: flex; 
@@ -330,12 +294,6 @@ a.searchbutton {
     background-color: #F2F2F2;
     border-radius: 15px;
     font-size: 15px;
-}
-
-@media all and (max-width: 920px){
-    #alllodging {
-        
-    }
 }
 
 #lodginglocation {
