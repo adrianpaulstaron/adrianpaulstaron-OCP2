@@ -125,7 +125,6 @@
     }
 
     #activitiestitle {
-        flex-basis: 425px;
         padding-bottom: 20px;
     }
 
@@ -226,8 +225,6 @@
         object-fit: cover;
     }
 
-
-
     #searchbar {
         width: 300px;
     }
@@ -243,10 +240,6 @@
         border: solid 1px #F2F2F2;
         border-right: none;
     }
-
-    /* #searchtextbox {
-        width: 143px; 
-    } */
 
     #searchbuttonbox {
         border-top-right-radius: 15px;
