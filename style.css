@@ -429,6 +429,7 @@ a.showmore:hover {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     height: 160px;
+    min-width: 160px;
     width: 160px;
     object-fit: cover;
 }
