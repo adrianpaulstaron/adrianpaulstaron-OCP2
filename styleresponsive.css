@@ -65,7 +65,7 @@
     }
 
     .inscription {
-        padding-top: 30px;
+        padding-top: 37px;
         width: 50%;
         order: 2;
     }
@@ -83,7 +83,7 @@
         border-top: none;
         padding-bottom: 40px;
         border-bottom: 2px solid #0065FC;
-        color: #0065;    
+        color:  #0065FC;    
     }
 
     #logobox {
@@ -239,7 +239,7 @@
     
     #popularlodging {
         margin: -5px;
-        padding: 5px;
+        padding: 0px;
     }    
 
     .lodgingpicture {
@@ -248,11 +248,6 @@
         object-fit: cover;
     }
 
-    .activitypicturetall {
-        width: 50px;
-        height: auto;
-    }
-    
     .activitypicturemedium {
         height: 150px;
         width: 300px;

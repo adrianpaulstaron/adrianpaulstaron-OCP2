@@ -60,7 +60,6 @@ header {
     grid-template-columns: 1fr 20fr 2fr 1fr;
 }
 #logobox {
-    background-color: red;
     width: auto;
     text-align: center;
 }
@@ -290,8 +289,6 @@ a.searchbutton {
     grid-gap: 40px;
     flex-wrap: wrap-reverse;
 }
-
-
 
 #alllodging {
     display: flex; 
