@@ -295,9 +295,9 @@ a.searchbutton {
     flex-direction: column;
     padding: 30px;
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 18px;
     font-size: 15px;
-    width: 63%;
+    width: 1125px;
 }
 
 #lodginglocation {
@@ -388,7 +388,7 @@ a.showmore:hover {
     margin-right: 0px;
     padding: 30px;
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 17px;
     font-size: 15px;
 }
 
@@ -519,7 +519,9 @@ a.showmore:hover {
 .verticalflex {
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-right: -10px;
+    padding-right: 0px;
 }
 
 
