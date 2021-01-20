@@ -1,6 +1,7 @@
 @media all and (min-width: 1921px) {
     body{
         max-width: 1920px;
+        margin: auto;
     }
 }
 
