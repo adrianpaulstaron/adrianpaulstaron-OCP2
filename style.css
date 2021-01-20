@@ -335,12 +335,18 @@ a.showmore:hover {
     border-radius: 7%;
 }
 
+.lodgingcard:hover {
+    cursor: pointer;
+}
+
 .lodgingpicture {
     margin-bottom: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     height: 200px;
+    max-height: 200px;
     width: 350px;
+    min-width: 350px;
     object-fit: cover;
 }
 
@@ -419,6 +425,10 @@ a.showmore:hover {
     border-radius: 20px;
 }
 
+.popularlodgingcard {
+    cursor: pointer;
+}
+
 .popularlodgingfigure {
     display: flex;
     align-items: center;
@@ -465,6 +475,10 @@ a.showmore:hover {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #F2F2F2;
+}
+
+.activitycard:hover {
+    cursor: pointer;
 }
 
 .activitytitles {
