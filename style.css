@@ -332,7 +332,7 @@ a.showmore:hover {
     margin-bottom: 10px;
     padding: 2px;
     background-color: white;
-    border-radius: 7%;
+    border-radius: 15px;
 }
 
 .lodgingcard:hover {
