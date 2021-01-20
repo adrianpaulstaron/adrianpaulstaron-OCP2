@@ -8,14 +8,7 @@
 }
 
 @media all and (max-width: 920px){
-    /* #lodging {
-        display: grid;
-        margin-top: 30px;
-        grid-gap: 30px;
-        grid-template: "a";
-    } */
     #filtersection {
-        display: flex;
         flex-direction: column;
     }
     #filters {
@@ -28,28 +21,20 @@
 }
 
 @media all and (max-width: 600px){
-
-
-
     header {
-        font-family: "RailwayLight";
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-
     }
-
     footer {
         flex-direction: column;
-        padding-left: 15px;    
+        padding-left: 30px;
     }
-
     #logo {
         padding-left: 0px;
         padding-top: 20px;
         order: 1;
     }
-
     #navigation {
         width: 150%;
         display: flex;
@@ -63,13 +48,11 @@
         padding-left: 0px;
         order: 3;
     }
-
     .inscription {
         padding-top: 37px;
         width: 50%;
         order: 2;
     }
-
     a.navigationlink {
         padding: 0px;
         color:black;
@@ -85,12 +68,9 @@
         border-bottom: 2px solid #0065FC;
         color:  #0065FC;    
     }
-
     #logobox {
         width: 50%;
     }
-    
-
 }
 
 @media all and (max-width: 480px){
@@ -103,15 +83,10 @@
         margin-left: -5px;
         margin-right: -5px;
     }
-
-
     #topbar {
         flex-direction: column-reverse;
-    }  
-
+    } 
     #alllodging {
-        display: flex; 
-        flex-direction: column;
         padding: 0px;
         background-color: white;
         border-radius: 0px;
@@ -142,7 +117,7 @@
         margin-left: 0px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
     }
 
@@ -170,9 +145,6 @@
 
     footer {
         margin-top: 30px;
-        background-color: #F2F2F2;
-        display: flex;
-        flex-direction: column;
         margin: -5px;
         padding-bottom: 30px
     }
@@ -290,5 +262,7 @@
         border: solid 1px #F2F2F2;
         border-left: none;
     }
-        
+    footer {
+        padding-left: 10px;
+    }
 }
