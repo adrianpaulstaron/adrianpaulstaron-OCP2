@@ -18,6 +18,20 @@
     #alllodging {
         width: 387px;
     }
+
+    .activitypicturetall {
+        height: 200px;
+        width: 420px;
+    }
+    .activitypicturemedium {
+        height: 200px;
+        width: 420px;
+    }
+    .activitypicturesmall {
+        height: 200px;
+        width: 420px;
+    }
+
 }
 
 @media all and (max-width: 600px){
