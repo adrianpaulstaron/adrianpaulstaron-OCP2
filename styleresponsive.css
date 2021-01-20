@@ -43,7 +43,9 @@
         height: 200px;
         width: 420px;
     }
-
+    .footercolumn {
+        padding-right: 7px;
+    }
 }
 
 @media all and (max-width: 600px){
@@ -55,7 +57,6 @@
     }
     footer {
         flex-direction: column;
-        padding-left: 30px;
     }
     #logo {
         padding-left: 0px;
@@ -103,6 +104,9 @@
         padding: 0px;
         background-color: white;
         border-radius: 0px;
+    }
+    .footercolumn {
+        padding-bottom: 0px;
     }
 }
 
@@ -282,6 +286,6 @@
         border-left: none;
     }
     footer {
-        padding-left: 10px;
+        padding-left: 0px;
     }
 }
