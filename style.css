@@ -284,10 +284,11 @@ a.searchbutton {
 
 #lodging {
     display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 50px;
     grid-gap: 40px;
-    flex-wrap: wrap-reverse;
 }
 
 #alllodging {
@@ -520,10 +521,10 @@ a.showmore:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: -10px;
-    padding-right: 0px;
 }
-
+.verticalflex2 {
+    margin-right: -10px;
+}
 
 /*================== footer =================*/
 
