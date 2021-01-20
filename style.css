@@ -378,6 +378,7 @@ a.showmore:hover {
 #popularlodging {
     display: flex; 
     flex-direction: column;
+    align-items: flex-start;
     margin-right: 0px;
     padding: 30px;
     background-color: #F2F2F2;
@@ -386,6 +387,7 @@ a.showmore:hover {
 }
 
 #popularlodgingtitlebox {
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
