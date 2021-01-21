@@ -16,6 +16,9 @@
     #activities {
         justify-content: flex-start;
     }
+    #lodging {
+        justify-content: flex-start;
+    }
 }
 
 @media all and (max-width: 920px){
@@ -183,7 +186,7 @@
 
     footer {
         margin-top: 30px;
-        margin: -10px;
+        margin: -30px;
         padding-bottom: 30px
     }
 
