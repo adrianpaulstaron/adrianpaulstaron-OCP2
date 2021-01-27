@@ -6,10 +6,6 @@
 }
 
 @media all and (max-width: 1907px){
-    /* body {
-        max-width: 1280px;
-    } */
-
     #alllodging {
         width: 770px;
     }
@@ -64,11 +60,9 @@
     #logo {
         padding-left: 0px;
         padding-top: 20px;
-        order: 1;
     }
     #navigation {
         width: 150%;
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 30px;
@@ -86,8 +80,6 @@
     }
     a.navigationlink {
         padding: 0px;
-        color:black;
-        text-decoration: none;
         text-align: center;
         padding-bottom: 40px;
         border-bottom: 2px solid#F2F2F2;
@@ -97,8 +89,6 @@
         padding: 0px;
         border-top: none;
         padding-bottom: 40px;
-        border-bottom: 2px solid #0065FC;
-        color:  #0065FC;    
     }
     #logobox {
         width: 50%;
@@ -129,15 +119,12 @@
 
 
     .lodgingpicture {
-        /* height: auto;
-        width: auto; */
         min-height: 200px;
         max-height: 200px;
         min-width: 300px;
         max-width: 300px
     }
 
-    
     .lodgingcard {    
         box-shadow: 0px 0px 10px #F2F2F2;
     }
@@ -148,41 +135,17 @@
         margin-right: -10px;
         margin-left: -10px;
         padding: 10px;
-        background-color: #F2F2F2;
         border-radius: 0px;
-        font-size: 15px;
     }
 
     #activities {
-        padding-top: 10px;
-        padding-left: 0px;
-        margin-left: 0px;
-        display: flex;
         flex-direction: row;
         align-items: center;
-        flex-wrap: wrap;
     }
 
     #activitiestitle {
         padding-bottom: 20px;
     }
-
-    /* .activitypicturetall {
-        height: 200px;
-        width: 420px;
-    }
-    
-    .activitypicturemedium {
-
-        width: 420px;
-        height: 200px;
-    }
-    
-    .activitypicturesmall {
-        height: 200px;
-        width: 420px;
-    } */
-    
 
     footer {
         margin-top: 30px;
@@ -222,18 +185,6 @@
         height: auto;
         width: 100%;
     }
-    .popularlodgingpicture {
-    }
-
-    .activitycard {
-    }
-
-    #searchbar {
-        width: 300px;
-    }
-
-    
-
 }
 
 @media all and (max-width: 320px){
@@ -248,12 +199,10 @@
 
     #alllodging {
         padding: 0px;
-
     }
 
     .lodgingcard {
         margin: 0px;
-        margin-bottom: 10px;
         padding: 0px;
         border-radius: 7%;
     }
@@ -261,32 +210,10 @@
     .lodgingpicture {
         height: 120px;
         width: 300px;
-        object-fit: cover;
     }
 
     #searchbar {
         width: 300px;
-    }
-
-    #mapmarkerbox  {
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        width: 20px;
-        padding: 12px; 
-        padding-top: 15px;
-        background-color: #F2F2F2;
-        text-align: center;
-        border: solid 1px #F2F2F2;
-        border-right: none;
-    }
-
-    #searchbuttonbox {
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        background-color: #0065FC;
-        padding: 10px;
-        border: solid 1px #F2F2F2;
-        border-left: none;
     }
     footer {
         padding-left: 0px;
