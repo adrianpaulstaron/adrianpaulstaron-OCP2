@@ -132,6 +132,19 @@
         box-shadow: 0px 0px 10px #F2F2F2;
     }
 
+    #alllodging {
+        width: 100%;
+    }
+
+    .lodgingcard {
+        margin-left: 2px;
+        margin-right: -4px;
+    }
+    .verticalflex2 {
+        margin-right: 0px;
+    }
+    
+
     #popularlodging {
         width:100%;
         display: flex;
