@@ -190,8 +190,7 @@
         width: 100%;
         margin-top: 30px;
         margin: -30px;
-        /* margin-right: -1000px; */
-        padding-bottom: 30px
+        padding-right: 30px;
     }
 
     .footercolumn {
