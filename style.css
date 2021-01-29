@@ -516,6 +516,9 @@ a.showmore:hover {
 }
 .verticalflex2 {
     margin-right: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /*================== footer =================*/
