@@ -13,24 +13,22 @@ body {
     padding-right: 40px;
 }
 
-h1 { 
+h2 { 
     font-family: "RailwayMedium";
     font-size: 20px;
     margin-bottom: 0px
 }
 
-h2 {
+h3, h4, p, .text, header {
     font-family: "RailwayLight";
-    font-size: 15px;
 }
 
 h3 {
-    font-family: "RailwayLight";
-    margin: 0px;
+    font-size: 15px;
 }
 
-p {
-    font-family: "RailwayLight";
+h4 {
+    margin: 0px;
 }
 
 ul {
@@ -47,15 +45,9 @@ figure {
     font-weight: bold;
 }
 
-.text {
-    font-family: "RailwayLight";
-}
-
-
 /*================== topnav ==================*/
 
 header {
-    font-family: "RailwayLight";
     display: grid;
     grid-template-columns: 1fr 20fr 2fr 1fr;
 }
