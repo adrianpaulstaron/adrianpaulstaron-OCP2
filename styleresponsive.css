@@ -223,7 +223,7 @@
     }
 
     #searchtextbox {
-        width: 143px;
+        width: 140px;
     }
 
     .lodgingpicture {
@@ -249,7 +249,7 @@
         width: 100%;
     }
 }
-
+/* 
 @media all and (max-width: 320px){
 
     h4 {
@@ -276,9 +276,9 @@
     }
 
     #searchbar {
-        width: 300px;
+        width: 280px;
     }
     footer {
         padding-left: 0px;
     }
-}
+} */

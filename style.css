@@ -213,7 +213,6 @@ a.searchbutton {
     border-top-left-radius: 55px;
     border-bottom-left-radius: 55px;
 }
-
 .svgbox  {
     border-radius: 55px;
     width: 15px;
@@ -225,7 +224,6 @@ a.searchbutton {
     align-items: center;
     color: #0065FC;
 }
-
 .filtertext {
     padding: 10px;
     padding-left: 15px;
@@ -300,6 +298,9 @@ a.searchbutton {
 
 .showmore {
     padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: "RailwayMedium";
 }
 
 a.showmore {
