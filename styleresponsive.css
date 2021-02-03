@@ -10,15 +10,19 @@
         width: 770px;
     }
     #activities {
-        justify-content: flex-start;
+        justify-content: center;
     }
     #lodging {
-        justify-content: flex-start;
+        justify-content: center;
+    }
+    #activitiestitle {
+        text-align: center;
+        padding-bottom: 20px;
     }
 }
 
 @media all and (max-width: 920px){
-    
+
     #filtersection {
         flex-direction: column;
     }
@@ -88,6 +92,13 @@
         padding-bottom: 40px;
         border-bottom: 2px solid#F2F2F2;
         width: 50%;
+    }
+    a.navigationlink:focus {
+        padding: 0px;
+        border-top: none;
+        padding-bottom: 40px;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;    
     }
     a.navigationlink:hover {
         padding: 0px;
