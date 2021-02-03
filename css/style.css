@@ -1,10 +1,10 @@
 @font-face {
     font-family: "RailwayLight";
-    src: url("utilities/fonts/Raleway-Light.ttf") format("truetype");
+    src: url("../utilities/fonts/Raleway-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: "RailwayMedium";
-    src: url("utilities/fonts/Raleway-Medium.ttf") format("truetype");
+    src: url("../utilities/fonts/Raleway-Medium.ttf") format("truetype");
 }
 
 body {
