@@ -284,16 +284,17 @@ a.searchbutton {
 #alllodging {
     display: flex; 
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 30px;
     background-color: #F2F2F2;
     border-radius: 18px;
     font-size: 15px;
-    width: 1125px;
+    width: 65%;
 }
 
 #lodginglocation {
     padding-bottom: 15px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .showmore {
@@ -316,18 +317,19 @@ a.showmore:hover {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    width:100%;
+    justify-content: space-between;
 }
 
 .lodgingcard {
     display: flex; 
     flex-direction: column;
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 10px;
-    padding: 2px;
+    /* padding: 2px; */
     background-color: white;
     border-radius: 15px;
+    width: 30%;
+    max-height: 320px;
 }
 
 .lodgingcard:hover {
@@ -335,14 +337,17 @@ a.showmore:hover {
     box-shadow: 0px 0px 10px #b1b1cd;
 }
 
+/* .lodgingfigure {
+    width: 10px;
+} */
+
 .lodgingpicture {
     margin-bottom: 10px;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
-    height: 200px;
+    width: 100%;
     max-height: 200px;
-    width: 350px;
-    min-width: 350px;
+    min-height: 200px;
     object-fit: cover;
 }
 
@@ -377,9 +382,11 @@ a.showmore:hover {
 }
 
 #popularlodging {
+    width: 25%;
+    height: auto;
     display: flex; 
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-right: 0px;
     padding: 30px;
     background-color: #F2F2F2;
@@ -388,7 +395,7 @@ a.showmore:hover {
 }
 
 #popularlodgingtitlebox {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -439,7 +446,8 @@ a.showmore:hover {
     margin: 5px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    height: 160px;
+    /* max-height: 200px; */
+    height: 160px; 
     min-width: 160px;
     width: 160px;
     object-fit: cover;
