@@ -215,6 +215,14 @@
         margin-right: 10px;
     }
 
+    #searchbuttonbox {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 27px;
+        text-align: center;
+        padding-top: 12px;
+    }
+
     #activities {
         justify-content: flex-start;
     }
