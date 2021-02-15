@@ -274,6 +274,7 @@
         border-top-right-radius: 0px;
         height: 92%; 
         min-width: 0px;
+        min-height: 0px;
         width: 70%;
         object-fit: cover;
     }
