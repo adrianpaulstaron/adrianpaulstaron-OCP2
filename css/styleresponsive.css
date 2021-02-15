@@ -28,12 +28,12 @@
         margin: 0px;
         padding: 0px;
     }
+
     .popularlodgingfigure {
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-
     .popularlodgingcaption {
         display: flex;
         flex-direction: column;
@@ -42,7 +42,6 @@
         justify-content: space-between;
         padding-right: 0px;
     }
-    
     .popularlodgingpicture {
         border-top-left-radius: 13px;
         border-top-right-radius: 13px; 
@@ -54,6 +53,33 @@
         object-fit: cover;
         margin-bottom: 10px;
     }
+/* 
+    .popularlodgingfigure {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .popularlodgingcaption {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: auto;
+        justify-content: space-between;
+        padding-right: 0px;
+    }
+    .popularlodgingpicture {
+        border-top-left-radius: 13px;
+        border-top-right-radius: 0px; 
+        border-bottom-left-radius:13px;  
+        margin: 0px; 
+        height: 200px; 
+        width: 200px;
+        min-height: 200px;
+        object-fit: cover;
+        margin-bottom: 0px;
+    } */
+
+
 }
 
 @media all and (max-width: 920px){
