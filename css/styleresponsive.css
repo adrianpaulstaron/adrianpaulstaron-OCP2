@@ -231,6 +231,11 @@
     .footercolumn {
         padding-bottom: 0px;
     }
+
+    .filtertypes {
+        margin-right: 15px;
+
+    }
 }
 
 @media all and (max-width: 480px){
@@ -248,6 +253,11 @@
         text-align: center;
         padding: 13px;
         border: none;
+    }
+
+    .filtertypes {
+        margin-right: 15px;
+
     }
 
     #activities {
@@ -348,3 +358,9 @@
         padding-right: 0px;
     }
 }
+
+@media all and (max-width: 380px){
+
+#filters {
+    flex-direction: column;
+}}
