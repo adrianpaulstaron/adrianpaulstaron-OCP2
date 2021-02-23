@@ -231,9 +231,15 @@
     .footercolumn {
         padding-bottom: 0px;
     }
-
     .filtertypes {
         margin-right: 15px;
+
+    }
+}
+
+@media all and (max-width: 485px){
+    .filtertypes {
+        margin-right: 12px;
 
     }
 }
@@ -255,10 +261,7 @@
         border: none;
     }
 
-    .filtertypes {
-        margin-right: 15px;
 
-    }
 
     #activities {
         justify-content: flex-start;
